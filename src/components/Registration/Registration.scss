@@ -1,0 +1,48 @@
+.registration {
+  display: flex;
+  justify-content: center;
+  background-color: #dedede;
+  &__wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+  }
+  &__input {
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0.6rem 0.75rem !important;
+    margin-bottom: 1rem;
+  }
+  &__content {
+    width: 360px;
+    height: 55vh;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: white;
+  }
+  &__logo {
+    width: 29vh;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+}
+
+.btn_section {
+  display: flex;
+  justify-content: space-around;
+  &_submit {
+    width: 100%;
+    border-radius: 2px !important;
+  }
+}
+

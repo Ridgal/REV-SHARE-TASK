@@ -1,0 +1,87 @@
+.container {
+  width: 1200px !important;
+  height: 820px;
+  box-shadow: 0px 4px 27px rgba(148, 148, 148, 0.78);
+  background-color: #FFFF;
+  margin: 6vh 6vh 2vh 38vh !important;
+}
+
+.newuser {
+  &__wrapper {
+    display: flex;
+  }
+  &__logo_page {
+    width: 50%;
+    height: 820px;
+  }
+  &__logo {
+    width: 588px;
+    height: 820px;
+  }
+  &__content {
+    width: 50%;
+    height: 820px;
+  }
+  &__content_form {
+    width: 380px;
+    margin: 155px 0px 0px 100px;
+  }
+  &__content_icon {
+    color: #606060;
+    font-size: 180px;
+  }
+  &__inputgroup {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  &__input {
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0.6rem 0.75rem !important;
+    margin-bottom: 1rem;
+    border-radius: 0 !important;
+  }
+}
+
+.btn_section {
+  display: flex;
+  justify-content: space-around;
+  &_submit {
+    width: 100%;
+    border-radius: 0 !important;
+    height: 44px;
+  }
+}
+
+
+.main {
+  &__box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 3vh;
+  }
+  &__title h2 {
+    font-family: 'Hind', sans-serif;
+  }
+  &__btn {
+    width: 150px;
+    border-radius: 2px !important;
+  }
+  &__link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    border: 2px solid #e1dede;
+  }
+}
