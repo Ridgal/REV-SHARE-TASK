@@ -1,5 +1,5 @@
 # TEST TASK REV-SHARE
-![]()
+![RevShare](https://github.com/Ridgal/REV-SHARE-TASK/blob/master/src/images/screen.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
